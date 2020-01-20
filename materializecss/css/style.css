@@ -4,7 +4,6 @@ p {
 
 nav .brand-logo {
     text-align: center;
-    overflow: hidden;
     width: 90%;
 }
 
@@ -52,4 +51,12 @@ footer a.linkedin .fab {
 
 footer a.twitter .fab {
     color: #55acee;
+}
+
+
+@media screen and (min-width: 992px){
+    nav .brand-logo {
+        text-align: left;
+        width: auto;
+    }
 }
